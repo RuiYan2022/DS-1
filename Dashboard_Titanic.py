@@ -64,6 +64,7 @@ pclass_bubble_plot.update_xaxes(type='category')
 #app = dash.Dash(external_stylesheets=[dbc.themes.LUX])
  
 app = dash.Dash('Titanic Analysis', external_stylesheets=[dbc.themes.LUX])  #external_stylesheets=['https://example.com/style1.css', 'https://example.com/style2.css'])
+server=app.server
 load_figure_template('LUX')
 
  
