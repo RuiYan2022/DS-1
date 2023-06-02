@@ -1,3 +1,10 @@
 dash==2.6.0 
 pandas
+numpy
+dash-bootstrap-components
+dash-core-components
+dash-html-components
+dash-table
+plotly
+plotly-express
 gunicorn
