@@ -35,8 +35,8 @@ from dash.dash_table.Format import Format, Scheme, Sign
 
 ################### Data Part #####################
 
-train_df = pd.read_csv('../data/titanic/train.csv')
-test_df = pd.read_csv('../data/titanic//test.csv')
+train_df = pd.read_csv('train.csv')
+test_df = pd.read_csv('test.csv')
 combine = [train_df, test_df]
 
 
